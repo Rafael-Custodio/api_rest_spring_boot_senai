@@ -2,7 +2,7 @@
 <h3>Curso de Desenvolvimento de API REST com Spring Boot.</h3><br>
 
 ```
-IDE Eclipse
+Eclipse
 ```
 ```
 Java
