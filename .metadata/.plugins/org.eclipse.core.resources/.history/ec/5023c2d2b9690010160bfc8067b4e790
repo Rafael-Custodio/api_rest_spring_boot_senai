@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Exercicio_11 {
+
+	public static void main(String[] args) {
+
+
+		
+	    /*
+		11 - Calcular o desconto de uma compra com base no valor total (exemplo: desconto de 10% se passar de R$100).Caso contrario 5%;
+	    */
+		
+	    System.out.println("====================");
+	    System.out.println("====================");
+	    System.out.println("Calcular o desconto de uma compra com base no valor total (exemplo: desconto de 10% se passar de R$100).Caso contrario 5%.");
+	    System.out.println("====================");
+	    System.out.println("====================");
+	    System.out.println(" ");
+	    
+	    Scanner teclado = new Scanner(System.in);
+
+	    System.out.println("Digite o valor da compra: ");
+	    Double valor = teclado.nextDouble();
+
+	    if (valor > 100) {
+	    	valor = ((valor - 5) / 100) * 100;
+		    System.out.println(" ");
+	    	System.out.println("O número está contido entre 10 e 20!");			
+		} else {
+		    System.out.println(" ");
+	    	System.out.println("O número NÃO está contido entre 10 e 20!");			
+		}
+	
+	}
+
+}
