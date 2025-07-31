@@ -1,0 +1,26 @@
+
+public class Testador {
+
+	public static void main(String[] args) {
+		
+		
+		//Tipo nome = valor
+		Aluno aluno1 = new Aluno();
+
+		//Atributos
+		aluno1.nome = "Reinaldo";
+		aluno1.cpf = "465.456.789-09";
+		aluno1.nrMatricula = 123456;
+		
+		Aluno aluno2 = new Aluno();
+		aluno2.nome = "Felipe";
+		aluno2.cpf = "123.123.123-10";
+		aluno2.nrMatricula = 456456;
+
+		
+		aluno1.estudar();
+		aluno2.estudar();
+
+	}
+
+}

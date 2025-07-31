@@ -35,6 +35,20 @@ public class Exercicio_15 {
 		media = (numeros[0] + numeros[1] + numeros[2] + numeros[3] + numeros[4]) / 5;
 		System.out.println(" ");
 		System.out.println("A média aritmética dos números digitados é: " + media);
+		
+//					
+//			int totalizador = 0;
+//			int[] numeros = new int[5]; 
+//			for (int w = 0  ; w <= numeros.length; w = w + 1  ) {
+//				System.out.println("Digite o numero");
+//				totalizador = totalizador + numeros[w];
+//			}
+//			
+//			
+//			float media = totalizador / 5;
+//			System.out.println(media);
+//			
+			
 
 	}
 

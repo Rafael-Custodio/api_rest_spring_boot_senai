@@ -1,0 +1,14 @@
+
+public class Aluno {
+	
+	//Atributos
+	private String nome;
+	private String cpf;
+	private long nrMatricula;
+	
+	
+	public void estudar() {
+		System.out.println(nome + " Estudando...");
+	}
+
+}
