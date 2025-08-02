@@ -1,0 +1,14 @@
+import java.security.PrivateKey;
+
+public class Testador {
+
+	public static void main(String[] args) {
+
+		//Objeto
+		Animal animal1 = new Animal("Yumi", 0, 1.5, "Cachorro", "Pietra");
+		
+		System.out.println(animal1.getNomeAnimal());
+		
+	}
+
+}

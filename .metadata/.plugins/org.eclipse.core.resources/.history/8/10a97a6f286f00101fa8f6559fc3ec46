@@ -1,0 +1,20 @@
+import java.security.PrivateKey;
+
+public class Testador {
+
+	public static void main(String[] args) {
+		
+		// Atributos
+		private String nomeAnimal;
+		private int idadeAnimal;
+		private String tipoAnimal;
+		Private String donoAnimal;
+		
+		
+
+
+
+		
+	}
+
+}
