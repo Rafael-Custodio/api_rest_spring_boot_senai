@@ -1,0 +1,41 @@
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Pessoa p1 = new Pessoa();
+		p1.nome = "Rafael";
+		p1.cpf = "123.456.789-00";
+		p1.idade = "38";
+		System.out.println(p1.toString());
+		
+		
+		
+		Pessoa p2 = new Pessoa();
+		p2.nome = "Karen";
+		p2.cpf = "123.456.789-00";
+		p2.idade = "38";
+		System.out.println(p2.toString());
+		
+		boolean resp1 = (p1.equals(p2));
+		System.out.println( resp1 );
+
+		
+
+		
+		
+		
+		/*
+		 * Veiculo v1 = new Veiculo();
+		v1.nome = "Fusca";
+		v1.marca = "VW";
+		v1.chassi = "123456789";
+		System.err.println( v1.toString() );
+		
+		 */
+
+		
+		
+	}
+
+}

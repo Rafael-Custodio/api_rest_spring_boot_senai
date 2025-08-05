@@ -1,0 +1,24 @@
+public class Veiculo {
+	public String nome;
+	public String marca;
+	public String chassi;
+
+	@Override
+	public String toString() {
+		return marca + ":" + nome;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+
+		if (obj instanceof Veiculo) {
+			Veiculo v = (Veiculo) obj;
+
+			return this.chassi.equals(v.chassi);
+		} else {
+			return false;
+		}
+
+	}
+
+}
