@@ -1,0 +1,47 @@
+import java.time.LocalDate;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+//		Pessoa p1 = new Pessoa();
+//		p1.nome = "Rafael";
+//		p1.cpf = "123.456.789-00";
+//		p1.idade = "38";
+//		System.out.println(p1.toString());		
+//		
+//		
+//		Pessoa p2 = new Pessoa();
+//		p2.nome = "Karen";
+//		p2.cpf = "123.456.789-00";
+//		p2.idade = "38";
+//		System.out.println(p2.toString());
+//		
+		
+		Funcionário f1 = new Funcionário();
+		f1.setNome("Karen");
+		f1.setCpf("123.456.789-00");
+		f1.setIdade("38");
+		f1.setNmMatricula("123123");
+		f1.setDepartamento("Saúde");
+		f1.setCargo("Enfermeira");
+		System.out.println(f1);
+		
+		Aluno a1 = new Aluno();
+		a1.setNome("Rafael");
+		a1.setCpf("123.456.789-00");
+		a1.setIdade("39");
+		a1.setMatricula("456456");
+		a1.setCurso("Java");
+		a1.setTurno("Noturno");
+		a1.setDtNascimento(LocalDate.of(2000, 05, 01));
+		System.out.println(a1);
+		
+		boolean resp1 = (f1.equals(a1));
+		System.out.println( resp1 );
+
+				
+		
+	}
+
+}

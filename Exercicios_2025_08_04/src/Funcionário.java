@@ -1,15 +1,37 @@
 
 public class Funcionário extends Pessoa {
-	
-	public String nmMatricula;
-	public String departamento;
-	public String cargo;
 
-	
-	@Override
-	public String toString() {
-	
-		return super.toString() + " Matricula: " + nmMatricula;
+	private String nmMatricula;
+	private String departamento;
+	private String cargo;
+
+	public String getNmMatricula() {
+		return nmMatricula;
 	}
 
+	public void setNmMatricula(String nmMatricula) {
+		this.nmMatricula = nmMatricula;
+	}
+
+	public String getDepartamento() {
+		return departamento;
+	}
+
+	public void setDepartamento(String departamento) {
+		this.departamento = departamento;
+	}
+
+	public String getCargo() {
+		return cargo;
+	}
+
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
+	}
+
+	@Override
+	public String toString() {
+		return super.toString() + ", Matricula: " + nmMatricula + ", Departamento: " + departamento + ", Cargo: "
+				+ cargo;
+	}
 }

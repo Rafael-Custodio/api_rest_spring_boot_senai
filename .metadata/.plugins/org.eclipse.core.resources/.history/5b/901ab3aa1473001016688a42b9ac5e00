@@ -1,0 +1,10 @@
+
+public class Aluno extends Pessoa {
+
+	public String matricula;
+	public String curso;
+	public String turno;
+
+	
+	
+}
