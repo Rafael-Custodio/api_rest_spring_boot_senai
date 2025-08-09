@@ -1,3 +1,2 @@
-2025/08/05-19:13:38.771 5314 Reusing MANIFEST C:\Users\FIC\Documents\Rafael_Spring\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
-2025/08/05-19:13:38.773 5314 Recovering log #3
-2025/08/05-19:13:38.774 5314 Reusing old log C:\Users\FIC\Documents\Rafael_Spring\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 
+2025/08/08-21:05:44.535 31a8 Creating DB C:\Users\FIC\Documents\Rafael_Spring\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB since it was missing.
+2025/08/08-21:05:44.566 31a8 Reusing MANIFEST C:\Users\FIC\Documents\Rafael_Spring\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
